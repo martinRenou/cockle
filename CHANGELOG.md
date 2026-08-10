@@ -2,6 +2,31 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 1.7.1
+
+Cockle 1.7.1 is a bug fix release to support `micromamba 2.9.0`.
+
+([Full Changelog](https://github.com/jupyterlite/cockle/compare/v1.7.0...f27498b15580295f403a772bd5f5aa6008439998))
+
+### Bugs fixed
+
+- Micromamba 2.9 compatibility [#339](https://github.com/jupyterlite/cockle/pull/339) ([@ianthomas23](https://github.com/ianthomas23))
+
+### Maintenance and upkeep improvements
+
+- Add more git2cpp tests [#337](https://github.com/jupyterlite/cockle/pull/337) ([@ianthomas23](https://github.com/ianthomas23))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/cockle/graphs/contributors?from=2026-07-16&to=2026-08-10&type=c))
+
+@ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fcockle+involves%3Aianthomas23+updated%3A2026-07-16..2026-08-10&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 1.7.0
 
 Cockle `1.7.0` adds a new [coincident](https://github.com/WebReflection/coincident) web worker which is used in deployments that are served cross-origin isolated, otherwise the default [comlink](https://github.com/googlechromelabs/comlink) web worker is used. There is no functional change for users of Cockle or the JupyterLite terminal, but downstream developers who are inheriting from and modifying these libraries may have to make changes to support the choice of web worker.
@@ -36,8 +61,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jupyterlite/cockle/graphs/contributors?from=2026-06-22&to=2026-07-16&type=c))
 
 @ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fcockle+involves%3Aianthomas23+updated%3A2026-06-22..2026-07-16&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 1.7.0-a1
 
