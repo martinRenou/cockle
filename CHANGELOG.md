@@ -2,6 +2,25 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 1.8.0-a0
+
+([Full Changelog](https://github.com/jupyterlite/cockle/compare/v1.7.1...cfbc5cd59798707fc3a52258770a1135cdca852a))
+
+### Enhancements made
+
+- Add signal for command state changed [#340](https://github.com/jupyterlite/cockle/pull/340) ([@ianthomas23](https://github.com/ianthomas23))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/cockle/graphs/contributors?from=2026-08-10&to=2026-08-12&type=c))
+
+@ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fcockle+involves%3Aianthomas23+updated%3A2026-08-10..2026-08-12&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 1.7.1
 
 Cockle 1.7.1 is a bug fix release to support `micromamba 2.9.0`.
@@ -24,8 +43,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/jupyterlite/cockle/graphs/contributors?from=2026-07-16&to=2026-08-10&type=c))
 
 @ianthomas23 ([activity](https://github.com/search?q=repo%3Ajupyterlite%2Fcockle+involves%3Aianthomas23+updated%3A2026-07-16..2026-08-10&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 1.7.0
 
